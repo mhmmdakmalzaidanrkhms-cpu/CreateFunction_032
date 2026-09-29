@@ -12,6 +12,10 @@ def convert_temperature(value, unit):
     else:
         return "Invalid unit! Use 'C' or 'F'."
 
+print(convert_temperature(100, 'C')) 
+print(convert_temperature(32, 'F'))  
+
+
 
 
 
