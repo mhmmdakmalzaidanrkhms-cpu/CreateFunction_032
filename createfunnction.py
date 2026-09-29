@@ -18,3 +18,8 @@ satuan = input("Masukkan satuan (C/F): ").upper()
 hasil = konversi_suhu(suhu, satuan)
 
 print("Hasil konversi:", hasil)
+
+
+
+luas_lingkaran = lambda r: 3.14 * r * r
+
