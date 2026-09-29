@@ -3,3 +3,7 @@ def konversi_suhu(suhu, satuan):
       
         hasil = (suhu * 9/5) + 32
         return hasil
+    elif satuan == "F":
+       
+        hasil = (suhu - 32) * 5/9
+        return hasil
