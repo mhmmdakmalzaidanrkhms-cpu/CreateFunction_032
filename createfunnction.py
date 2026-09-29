@@ -7,3 +7,5 @@ def konversi_suhu(suhu, satuan):
        
         hasil = (suhu - 32) * 5/9
         return hasil
+    else:
+        return "Satuan tidak valid!"
