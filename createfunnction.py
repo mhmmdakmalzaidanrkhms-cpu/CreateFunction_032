@@ -9,3 +9,9 @@ def konversi_suhu(suhu, satuan):
         return hasil
     else:
         return "Satuan tidak valid!"
+
+
+
+suhu = float(input("Masukkan suhu: "))
+satuan = input("Masukkan satuan (C/F): ").upper()
+
