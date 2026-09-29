@@ -3,28 +3,3 @@ def konversi_suhu(suhu, satuan):
       
         hasil = (suhu * 9/5) + 32
         return hasil
-    elif satuan == "F":
-       
-        hasil = (suhu - 32) * 5/9
-        return hasil
-    else:
-        return "Satuan tidak valid!"
-
-
-
-suhu = float(input("Masukkan suhu: "))
-satuan = input("Masukkan satuan (C/F): ").upper()
-
-hasil = konversi_suhu(suhu, satuan)
-
-print("Hasil konversi:", hasil)
-
-
-
-luas_lingkaran = lambda r: 3.14 * r * r
-
-jari_jari = float(input("Masukkan jari-jari lingkaran: "))
-
-hasil_luas = luas_lingkaran(jari_jari)
-
-print("Luas lingkaran:", hasil_luas)
