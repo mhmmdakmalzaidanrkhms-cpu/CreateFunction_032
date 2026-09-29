@@ -9,6 +9,9 @@ def convert_temperature(value, unit):
     elif unit == 'F':
        
         return (value - 32) * 5 / 9
+    else:
+        return "Invalid unit! Use 'C' or 'F'."
+
 
 
 
