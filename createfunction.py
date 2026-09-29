@@ -16,6 +16,8 @@ print(convert_temperature(100, 'C'))
 print(convert_temperature(32, 'F'))  
 
 
+luas_lingkaran = lambda r: math.pi * r ** 2
 
+print(luas_lingkaran(7)) 
 
 
